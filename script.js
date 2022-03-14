@@ -35,10 +35,10 @@ let drawPoints = () => {
      .attr('class', 'dot')
      .attr('r', '5')
      .attr('data-xvalue', (item) => {
-       return item
+       return item['Year']
      })
      .attr('data-yvalue', (item) => {
-       return item
+       return new Date(item['Seconds'] * 1000) // converted the time in seconds to milliseconds
      })
 
 }
