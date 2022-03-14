@@ -56,6 +56,13 @@ let drawPoints = () => {
      .attr('cy', (item) => {
        return yScale(new Date(item['Seconds'] * 1000))
      })
+     .attr('fill', (item) => {
+       if(item['Doping'] != '') {
+         return 'orange'
+       } else {
+         return 'lightgreen'
+       }
+     })
 
 }
 
