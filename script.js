@@ -20,9 +20,9 @@ let generateScales = () => {
 
   xScale = d3.scaleLinear()
              .domain([d3.min(values, (item) => {
-               return item['Year']
+               return item['Year'] - 1
              }), d3.max(values, (item) => {
-               return item['Year']
+               return item['Year'] + 1
              })])
              .range([padding, width - padding])
 
