@@ -3,4 +3,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: black;
+  color: white;
+  fill: white;
 }
