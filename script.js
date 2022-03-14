@@ -57,6 +57,7 @@ let generateAxes = () => {
                 .tickFormat(d3.format('d')) // removes the comma in x-axis values
 
   let yAxis = d3.axisLeft(yScale)
+                .tickFormat(d3.timeFormat('%M:%S')) // displays y-axis values in MM:SS format
 
   svg.append('g')
      .call(xAxis)
