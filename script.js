@@ -28,6 +28,13 @@ let generateScales = () => {
 
 let drawPoints = () => {
 
+  svg.selectAll('circle')
+     .data(values)
+     .enter()
+     .append('circle')
+     .attr('class', 'dot')
+     .attr('r', '5')
+
 }
 
 let generateAxes = () => {
