@@ -51,6 +51,7 @@ let drawPoints = () => {
 let generateAxes = () => {
 
   let xAxis = d3.axisBottom(xScale)
+                .tickFormat(d3.format('d')) // removes the comma in x-axis data
 
   let yAxis = d3.axisLeft(yScale)
 
