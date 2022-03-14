@@ -27,6 +27,11 @@ let generateScales = () => {
              .range([padding, width - padding])
 
   yScale = d3.scaleLinear()
+             .domain([d3.min(values, (item) => {
+               return new Date(item['Seconds'] * 1000)
+             }), d3.max(values, (item) => {
+               return new Date(item['Seconds'] * 1000)
+             })])
              .range([height - padding, padding])
 
 }
@@ -47,6 +52,9 @@ let drawPoints = () => {
      })
      .attr('cx', (item) => {
        return xScale(item['Year'])
+     })
+     .attr('cy', (item) => {
+       return yScale(new Date(item['Seconds'] * 1000))
      })
 
 }
