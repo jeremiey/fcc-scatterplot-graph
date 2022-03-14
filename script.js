@@ -34,6 +34,12 @@ let drawPoints = () => {
      .append('circle')
      .attr('class', 'dot')
      .attr('r', '5')
+     .attr('data-xvalue', (item) => {
+       return item
+     })
+     .attr('data-yvalue', (item) => {
+       return item
+     })
 
 }
 
