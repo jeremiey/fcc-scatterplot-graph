@@ -34,6 +34,7 @@ let generateAxes = () => {
   svg.append('g')
      .call(xAxis)
      .attr('id', 'x-axis')
+     .attr('transform', `translate(0,${height - padding})`)
 
 }
 
