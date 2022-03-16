@@ -1,4 +1,4 @@
-# [D3 Scatterplot Graph](https://www.freecodecamp.org/learn/data-visualization/data-visualization-projects/visualize-data-with-a-heat-map)
+# [D3 Scatterplot Graph](https://www.freecodecamp.org/learn/data-visualization/data-visualization-projects/visualize-data-with-a-scatterplot-graph)
 
 > **Live Preview: <https://jeremiey.github.io/scatterplot-graph/>**
 
