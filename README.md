@@ -6,6 +6,6 @@
 
 User stories can be found at <https://www.freecodecamp.org/learn/data-visualization/data-visualization-projects/visualize-data-with-a-scatterplot-graph>
 
-# Screenshot
+## Screenshot
 
 ![Screenshot from 2022-03-16 11-32-09](https://user-images.githubusercontent.com/87664239/158570763-ea966cba-8380-4676-b3a8-94ca575518ac.png)
