@@ -1,4 +1,4 @@
-# [D3 Scatterplot Graph](https://www.freecodecamp.org/learn/data-visualization/data-visualization-projects/visualize-data-with-a-scatterplot-graph)
+# [freeCodeCamp Scatterplot Graph](https://www.freecodecamp.org/learn/data-visualization/data-visualization-projects/visualize-data-with-a-scatterplot-graph)
 
 **Live Preview Link**: <https://jeremiey.github.io/fcc-scatterplot-graph/>
 
