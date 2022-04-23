@@ -1,10 +1,8 @@
 # [D3 Scatterplot Graph](https://www.freecodecamp.org/learn/data-visualization/data-visualization-projects/visualize-data-with-a-scatterplot-graph)
 
-**Live Preview Link: <https://jeremiey.github.io/scatterplot-graph/>**
+**Live Preview Link**: <https://jeremiey.github.io/fcc-scatterplot-graph/>
 
 **Dataset used to complete this project**: <https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/cyclist-data.json>
-
-User stories can be found at <https://www.freecodecamp.org/learn/data-visualization/data-visualization-projects/visualize-data-with-a-scatterplot-graph>
 
 ## Screenshot
 
